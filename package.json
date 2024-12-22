@@ -1,6 +1,7 @@
 {
   "name": "adele-and-theo",
   "version": "0.1.0",
+  "homepage": "https://adele-and-theo.adelesmolansky.com",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
