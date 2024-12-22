@@ -1,8 +1,13 @@
 import React from 'react';
 import dinners from '../data/dinners.json';
 
+// Prefix for the image paths
 const IMAGE_PREFIX = '/images/homeCookedDinners/';
 
+/**
+ * Home Cooked Dinners Page.
+ * A gallery of past meals and a collection of dinner ideas for inspiration.
+ */
 const HomeCookedDinners: React.FC = () => {
   const dinnerIdeas = dinners.ideas;
   const dinnerPhotos = dinners.photos;

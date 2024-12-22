@@ -2,8 +2,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import lovePoint from '../data/lovePoints.json';
 
+/**
+ * Component to display a list of reasons why I love you.
+ * The list is a vertical list of reasons with heart emojis.
+ * We use the data from lovePoints.json to populate the list.
+ */
 const WhyILoveYou: React.FC = () => (
   <div className="min-h-screen bg-pink-100 flex flex-col items-center py-12 px-6">
+    {/* Animate the page title */}
     <motion.h1
       className="text-4xl md:text-6xl text-pink-700 font-bold mb-8"
       initial={{ opacity: 0, y: -50 }}
@@ -13,6 +19,7 @@ const WhyILoveYou: React.FC = () => (
       What I Love About You
     </motion.h1>
 
+    {/* Main section with the reasons */}
     <div className="w-full max-w-3xl bg-white shadow-lg rounded-lg p-6">
       <ul className="space-y-3">
         {lovePoint.map((point, index) => (
@@ -30,6 +37,7 @@ const WhyILoveYou: React.FC = () => (
       </ul>
     </div>
 
+    {/* Little paragraph at the bottom */}
     <p className="text-md mt-4">
       Thanks for loving me too. Love is a wonderful thing when it's with you
       ❤️😊

@@ -2,12 +2,19 @@ import React from 'react';
 import events from '../data/events.json';
 import { getImgPath } from '../util/util';
 
+/**
+ * Component to display a timeline of events.
+ * The timeline is a vertical list of events with dates, descriptions, and photos.
+ * We use the data from events.json to populate the timeline.
+ */
 const Timeline: React.FC = () => (
-  <div className="min-h-screen bg-pink-100 py-12 px-6 flex justify-center">
+  <div className="min-h-screen bg-pink-100 py-6 px-6 flex justify-center">
     <div className="w-full max-w-4xl">
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
+      {/* Title */}
+      <h1 className="text-5xl font-bold text-center text-gray-800 mb-4">
         Our Timeline
       </h1>
+      {/* Main container for the events */}
       <div className="relative border-l-4 border-pink-500">
         {events.map((event, index) => (
           <div key={index} className="mb-12 ml-6 relative">
