@@ -1,0 +1,33 @@
+{
+  "photos": [
+    { "filename": "july-24-1.jpeg", "date": "July 2024" },
+    { "filename": "oct-24-1.jpeg", "date": "October 2024" },
+    { "filename": "oct-24-2.jpeg", "date": "October 2024" },
+    { "filename": "oct-24-3.jpeg", "date": "October 2024" },
+    { "filename": "oct-24-4.jpeg", "date": "October 2024" },
+    { "filename": "nov-24-1.jpeg", "date": "November 2024" },
+    { "filename": "nov-24-2.jpeg", "date": "November 2024" },
+    { "filename": "nov-24-3.jpeg", "date": "November 2024" },
+    { "filename": "nov-24-4.jpeg", "date": "November 2024" },
+    { "filename": "dec-24-1.jpeg", "date": "December 2024" },
+    { "filename": "dec-24-2.jpeg", "date": "December 2024" },
+    { "filename": "dec-24-3.jpeg", "date": "December 2024" },
+    { "filename": "dec-24-4.jpeg", "date": "December 2024" },
+    { "filename": "dec-24-5.jpeg", "date": "December 2024" }
+  ],
+  "ideas": [
+    "Chicken (breast, thigh, wings) with trader joes seasoning, rice, and veggies",
+    "Adobe chicken with rice and veggies",
+    "Rotisserie chicken with rice and veggies",
+    "Citrus salmon with rice and veggies",
+    "Cod fish with rice and veggies",
+    "Taco night",
+    "Pasta night",
+    "Chicken Fajitas with peppers, onions, and tortillas",
+    "Breakfast for Dinner: Pancakes, scrambled eggs, and turkey bacon",
+    "Shakshuka with bread",
+    "Garlic butter shrimp and pasta",
+    "Homemade Sushi Rolls with salmon, avocado, and cucumber",
+    "Grilled Steak with chimichurri sauce and roasted Brussels sprouts"
+  ]
+}

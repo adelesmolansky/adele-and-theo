@@ -1,0 +1,296 @@
+[
+  {
+    "date": "May 3, 2024",
+    "title": "First Date",
+    "category": "Night Out",
+    "description": "Dinner at Teleferic set the perfect vibe, followed by an electric and fun night at the Patio. We ended up back at my apartment to keep the good times rolling, and it took Theo all night to finally kiss me—our conversations were just that good! 🥰✨"
+  },
+  {
+    "date": "May 11, 2024",
+    "title": "Random Party",
+    "description": "A random party at Stanford. We were that annoying (cute) couple at the party.",
+    "category": "Night Out",
+    "photos": ["may11party/1.jpeg", "may11party/2.jpeg", "may11party/3.jpeg"]
+  },
+  {
+    "date": "May 12, 2024",
+    "title": "First Bike Ride",
+    "category": "Cycling",
+    "description": "I beat Theo up OLH, and we biked to the beach. I remember looking at the beautiful scenery and Theo on a bike and thinking to myself \"Wow this is the moment I've been waiting for.\" And of course the kiss on the beach was absolutely perfect. 🌊💛",
+    "photos": [
+      "firstBikeRide/1.jpeg",
+      "firstBikeRide/2.jpeg",
+      "firstBikeRide/3.jpeg"
+    ]
+  },
+  {
+    "date": "May 26, 2024",
+    "title": "Second Bike Ride",
+    "category": "Cycling",
+    "description": "Another amazing ride followed by dinner at Poke. We kept growing closer, and I realized that taking a day off to enjoy the outdoors with a great guy is truly one of the best ways to spend a day. 🚴‍♀️🍴 Also that poke dinner was reeaaallly good.",
+    "photos": [
+      "secondBikeRide/1.jpeg",
+      "secondBikeRide/2.jpeg",
+      "secondBikeRide/3.jpeg"
+    ]
+  },
+  {
+    "date": "May 31, 2024",
+    "title": "We Become Official",
+    "category": "Night Out",
+    "description": "We had a dinner date at Vino and then made our way to Zola for another drink. On the walk over, we got caught in the classic \"what are we?\" conversation. Spoiler alert: it ended perfectly—boyfriend and girlfriend 💕🥂✨"
+  },
+  {
+    "date": "June 10, 2024",
+    "title": "Bootcamp",
+    "category": "Exercise",
+    "description": "We do another bootcamp at the Stanford outdoor gym. Very hard and fun (for some of us). But also how cute is it that we workout together 😍😉",
+    "photos": ["bootcamp/1.jpeg"]
+  },
+  {
+    "date": "June 21, 2024",
+    "title": "Theo's First Century",
+    "category": "Cycling",
+    "description": "I accidentally gave us extra miles to bike (whoops). We had the famous bread at Pescadero bakery.🚴‍♂️🍞🍴",
+    "photos": [
+      "theosFirstCentury/1.jpeg",
+      "theosFirstCentury/2.jpeg",
+      "theosFirstCentury/3.jpeg",
+      "theosFirstCentury/4.jpeg",
+      "theosFirstCentury/5.jpeg"
+    ]
+  },
+  {
+    "date": "July 3, 2024",
+    "title": "Airport Pickup",
+    "category": "Cute things",
+    "description": "Theo picks me up from the airport with flowers and strawberries, and that's when it hit me - I might have actually landed a really really great guy. 🍓🌹💕"
+  },
+  {
+    "date": "July 4, 2024",
+    "title": "Independence Day 2024",
+    "category": "Holiday",
+    "description": "A fun holiday together. Started with my 19-mile run and then a big BBQ at EVGR with lots of food, beer, and chatting. We then escaped the heat with Stanford fountain hopping. And since I love two workouts a day, we bike up Page Mill to watch the fireworks. Although the pitch-black descent was terrifying, my chocolate rice cakes and your strawberries made it worth it.🎆🚴‍♀️🍔🔥",
+    "photos": [
+      "july4-24/1.jpeg",
+      "july4-24/2.jpeg",
+      "july4-24/3.jpeg",
+      "july4-24/4.jpeg"
+    ]
+  },
+  {
+    "date": "July 6, 2024",
+    "title": "Failed Santa Cruz Ride",
+    "category": "Cycling",
+    "description": "We decide to bike in 100+ F degree weather. After making it up HW9, we were too dehydrated to continue. I get us water and carry 4 bottles of water for. We race down HW9 and then get great sandwiches.",
+    "photos": [
+      "failedSantaCruz/1.jpeg",
+      "failedSantaCruz/2.jpeg",
+      "failedSantaCruz/3.jpeg"
+    ]
+  },
+  {
+    "date": "July 13, 2024",
+    "title": "Successful Santa Cruz",
+    "category": "Cycling",
+    "description": "We made it to Santa Cruz! We got fried chicken sandwiches and they were ... reaallyyyy good. And this was Theo's second cycling century. Theo fueled with a jar of honey - definitely better CPD than gels.",
+    "photos": [
+      "santaCruz/1.jpeg",
+      "santaCruz/2.jpeg",
+      "santaCruz/3.jpeg",
+      "santaCruz/4.jpeg",
+      "santaCruz/5.jpeg"
+    ]
+  },
+  {
+    "date": "July 20, 2024",
+    "title": "Bike Accident :(",
+    "category": "Cute things",
+    "description": "I fall off my bike while Theo is on the east coast. Cris saves me at the ER room and we bond. I wear Theo's clothes all week and he talks to me on the phone every day to keep my spirits high. And you bring me flowers immediately when you get back. Thank you ❤️",
+    "photos": [
+      "bikeAccident/1.jpeg",
+      "bikeAccident/2.jpeg",
+      "bikeAccident/3.jpeg",
+      "bikeAccident/4.jpeg",
+      "bikeAccident/5.jpeg"
+    ]
+  },
+  {
+    "date": "Aug 10, 2024",
+    "title": "Moving out of EVGR",
+    "category": "Cute things",
+    "description": "Theo helps move me out of EVGR. He spends the entire day helping me pack and running back and forth between my apt and his car. His car then breaks down and we problem solve together - meaning me pack my bike with all my stuff and walk over to Theo's apt.",
+    "photos": ["evgrMoveOut/1.jpeg", "evgrMoveOut/2.jpeg"]
+  },
+  {
+    "date": "Aug 15, 2024",
+    "title": "First Trip: Canada",
+    "category": "Vacation",
+    "description": "Our first couples trip! It was all perfect: beautiful hikes, delicious food, and great vibes. We bond a lot and pass the \"first couples trip\" test.",
+    "photos": [
+      "canada24/1.jpeg",
+      "canada24/2.jpeg",
+      "canada24/3.jpeg",
+      "canada24/4.jpeg",
+      "canada24/5.jpeg",
+      "canada24/6.jpeg",
+      "canada24/7.jpeg",
+      "canada24/8.jpeg"
+    ]
+  },
+  {
+    "date": "Aug 20, 2024",
+    "title": "Famous Cycling Pic With Cris",
+    "category": "Cycling",
+    "description": "We take a really cute photo with Cris at Foothills Park when we accidentally bumped into him there.",
+    "photos": ["cyclingPicWithCris/1.jpeg"]
+  },
+  {
+    "date": "Aug 29, 2024",
+    "title": "Pizza My Heart Dinner",
+    "category": "Cute things",
+    "description": "Just a fun dinner date.",
+    "photos": ["pizza/1.jpeg"]
+  },
+  {
+    "date": "Aug 29, 2024",
+    "title": "The \"I Love You\" Drop",
+    "category": "Night Out",
+    "description": "Another dinner date at Vino, followed by drinks at Zola. And then… the big “I love you” moment happened. It only took me 3 weeks and countless calls with my brother to finally say the words—but it was absolutely magical. 🥂❤️✨",
+    "photos": ["iloveyou/1.jpeg"]
+  },
+  {
+    "date": "Sep 20, 2024",
+    "title": "Theo's Bikepacking Finale",
+    "category": "Cycling",
+    "description": "I join Theo and Grant for their last day of bikepacking (I bike up to Santa Rosa the day before). Theo surprises me saying he has started learning Russian! Grant completes his first cycling century (while chugging a gallon of milk) and Theo completes his third. 🚴‍♂️🥛 🌉",
+    "photos": [
+      "bikepacking24/1.jpeg",
+      "bikepacking24/2.jpeg",
+      "bikepacking24/3.jpeg",
+      "bikepacking24/4.jpeg",
+      "bikepacking24/5.jpeg",
+      "bikepacking24/6.jpeg",
+      "bikepacking24/7.jpeg",
+      "bikepacking24/8.jpeg"
+    ]
+  },
+  {
+    "date": "Sep 29, 2024",
+    "title": "Theo Meets Mom",
+    "category": "Cute things",
+    "description": "We get yummy dinner with my mom. It goes great! Mama also gives us granola.",
+    "photos": [
+      "theoMeetsMom/1.jpeg",
+      "theoMeetsMom/2.jpeg",
+      "theoMeetsMom/3.jpeg",
+      "theoMeetsMom/4.jpeg"
+    ]
+  },
+  {
+    "date": "Oct 12, 2024",
+    "title": "Driving Lesson and In & Out",
+    "category": "Cute things",
+    "description": "Theo continues to teach me how to drive. He's a good teacher ❤️ And I finally try In & Out. It's aight.",
+    "photos": ["drivingLesson/1.jpeg", "drivingLesson/2.jpeg"]
+  },
+  {
+    "date": "Oct 14, 2024",
+    "title": "Our First Run Together",
+    "category": "Running",
+    "description": "Theo finally decided to start running!",
+    "photos": ["running/1.jpeg"]
+  },
+  {
+    "date": "Oct 19, 2024",
+    "title": "Mt Tam",
+    "category": "Cycling",
+    "description": "We bike Mount Tam! And hike around Muir Woods a bit. And stop by a pumpkin patch on the way home. Very very fun day!",
+    "photos": [
+      "mtTam/1.jpeg",
+      "mtTam/2.jpeg",
+      "mtTam/3.jpeg",
+      "mtTam/4.jpeg",
+      "mtTam/5.jpeg",
+      "mtTam/6.jpeg"
+    ]
+  },
+  {
+    "date": "Oct 25, 2024",
+    "title": "Halloween 2024",
+    "category": "Night Out",
+    "description": "We pull off a super cute (and nerdy) halloween costume - Microsoft Excel and Word. We end the night with some dino nuggets.",
+    "photos": [
+      "halloween24/1.jpeg",
+      "halloween24/2.jpeg",
+      "halloween24/3.jpeg",
+      "halloween24/4.jpeg"
+    ]
+  },
+  {
+    "date": "Nov 3, 2024",
+    "title": "6 Month Anniversary",
+    "category": "Holiday",
+    "description": "We see the Clue musical at the San Jose theater (hilarious!) and then go to Pizzeria Delfina for a dinner date. Awesome day!",
+    "photos": ["sixMonths/1.jpeg"]
+  },
+  {
+    "date": "Nov 17, 2024",
+    "title": "Theo's Comes to my Pitch",
+    "category": "Cute things",
+    "description": "Theo comes to my first work pitch event. Big deal for me but I didn't tell Theo until later. It all went well!",
+    "photos": ["firstPitch/1.jpeg"]
+  },
+  {
+    "date": "Nov 19, 2024",
+    "title": "Early Morning Run",
+    "category": "Running",
+    "description": "Theo runs with me early in the morning. Thanks for always accommodating to my work schedule ❤️. We also got to see really pretty fall season trees.",
+    "photos": ["prettyTreesRun/1.jpeg"]
+  },
+  {
+    "date": "Nov 23, 2024",
+    "title": "Rainy Bike Ride, Lunch, and Ikea",
+    "category": "Cycling",
+    "description": "We bike up to Foothills Park and see a rainbow. It then starts raining as we climb alpine and we hide out together. We got yummy lunch at Rosotti's Alpine Inn (first time there together). We end the day with a trip to Ikea to buy a mattress and Sharky.",
+    "photos": [
+      "rainyBikeAndSharky/1.jpeg",
+      "rainyBikeAndSharky/2.jpeg",
+      "rainyBikeAndSharky/3.jpeg",
+      "rainyBikeAndSharky/4.jpeg",
+      "rainyBikeAndSharky/5.jpeg"
+    ]
+  },
+  {
+    "date": "Nov 30, 2024",
+    "title": "Theo's 26th Birthday",
+    "category": "Holiday",
+    "description": "Starts with my turkey trot. Super thankful for the convo that we had the night before bc Theo calmed me down. Theo comes to my house around noon, and we go see a broadway show with my family. We then get drinks and dinner with Theo’s family (went great!). Then drinks with Ben. And finally sleepover at my house. Wow very busy and amazing day.",
+    "photos": ["theos26th/1.jpeg", "theos26th/2.jpeg"]
+  },
+  {
+    "date": "Dec 2, 2024",
+    "title": "First Dinner at the Smolansky's",
+    "category": "Cute things",
+    "description": "We have dinner at the Smolansky house. Mama makes french style duck. Theo bonds over intellectual things with my parents. All goes great! Mama gives Theo a giant bag of granola that Theo taps into when we get back to CA.",
+    "photos": ["firstSmolanskyDinner/1.jpeg", "firstSmolanskyDinner/2.jpeg"]
+  },
+  {
+    "date": "Dec 11, 2024",
+    "title": "Playing House at Theo's",
+    "category": "Cute things",
+    "description": "We make dinner and hang out for a week at Theo's apartment. Theo becomes a chef and makes us great dinner every night. It's awesome to hangout so much 😊 We also watch Die Hard during the week, and we all learn how scared I am of thriller movies.",
+    "photos": ["playingHouse/1.jpeg", "playingHouse/2.jpeg"]
+  },
+  {
+    "date": "Dec 13, 2024",
+    "title": "Magical Bike Ride",
+    "category": "Cycling",
+    "description": "We ride up Kings Mountain (and I PR Kings!). Theo takes really cool photos of me in the magical light. Overall great ride.",
+    "photos": [
+      "magicalKingsRide/1.jpeg",
+      "magicalKingsRide/2.jpeg",
+      "magicalKingsRide/3.jpeg"
+    ]
+  }
+]
