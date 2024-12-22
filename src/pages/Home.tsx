@@ -14,44 +14,63 @@ const generateRandomPosition = () => ({
 });
 
 // Generate final grid-aligned positions
-const finalAlignedPosition = (index: number) => {
-  // determine the totalImagesPerRow based on the screen width and the amount of
-  // spacing that we want between images
-  const totalImagesPerRow = window.innerWidth / 300;
+const finalAlignedPosition = (index: number, windowWidth: number) => {
+  // Decide how many columns (aka images per row) to display based on screen width
+  let columns = 1;
+  if (windowWidth >= 1200) columns = 6;
+  else if (windowWidth >= 992) columns = 5;
+  else if (windowWidth >= 768) columns = 4;
+  else columns = 2;
 
-  const row = Math.floor(index / totalImagesPerRow);
-  const col = index % totalImagesPerRow;
-  const spacing = 250; // Adjust spacing between images
+  // Calculate the total size for each image
+  const totalSizeForImage = (windowWidth / columns) * 0.9; // 80% of the column width
+
+  // Calculate current row/column
+  const row = Math.floor(index / columns);
+  const col = index % columns;
 
   return {
-    x: col * spacing - (totalImagesPerRow * spacing) / 2, // Center horizontally
-    y: row * spacing - 250, // greater number moves images up
+    x:
+      col * totalSizeForImage -
+      (columns * totalSizeForImage) / 2 +
+      totalSizeForImage / 2, // Center horizontally
+    y: row * totalSizeForImage - window.innerHeight / 4, // Center vertically
     rotate: 0, // No rotation when aligned
   };
 };
 
 const Home = () => {
-  // State to control animation
   const [isAnimating, setIsAnimating] = useState(true);
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
+
+  // Update window width on resize
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     // Stop animation after 10 seconds
     setTimeout(() => setIsAnimating(false), tenSeconds);
-  });
+
+    // Recalculate positions on window resize
+    const handleResize = () => setIsAnimating(false);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleReplay = () => {
     setIsAnimating(false); // Stop animation
     setTimeout(() => setIsAnimating(true), 100); // Restart animation after a short delay
-
-    // Stop animation after 10 seconds
-    setTimeout(() => setIsAnimating(false), tenSeconds);
+    setTimeout(() => setIsAnimating(false), tenSeconds); // Stop after 10 seconds
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 overflow-hidden relative flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 relative flex items-center justify-center overflow-x-hidden">
       {/* Text */}
       <motion.h1
-        className="absolute top-3 text-white text-6xl md:text-8xl font-bold z-10"
+        className="absolute top-3 text-white text-4xl md:text-6xl font-bold z-10"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 2 }}
@@ -59,7 +78,7 @@ const Home = () => {
         Adele and Theo
       </motion.h1>
 
-      <p className="absolute top-20 text-white text-center text-xl z-10 mt-8 font-bold">
+      <p className="absolute top-10 md:top-15 text-white text-center text-sm md:text-lg z-10 mt-8 font-bold px-4">
         A story of love, adventure, and shared moments. Welcome to our journey.
         <br />
         {loveString}
@@ -67,13 +86,17 @@ const Home = () => {
 
       {/* Images */}
       {photos.map((photo, index) => (
-        <motion.img
+        <motion.div
           key={isAnimating ? `animating-${index}` : `aligned-${index}`} // Use key to force remount
-          src={getImgPath(photo)}
-          alt={`Photo ${index + 1}`}
-          className="absolute w-48 object-cover rounded-lg shadow-lg"
+          className="absolute overflow-y-auto"
+          style={{
+            width: `clamp(150px, ${window.innerWidth / 7}px, 250px)`, // Responsive sizing
+            aspectRatio: '1 / 1', // Ensures consistent box aspect ratio
+          }}
           initial={
-            isAnimating ? generateRandomPosition() : finalAlignedPosition(index)
+            isAnimating
+              ? generateRandomPosition()
+              : finalAlignedPosition(index, windowWidth)
           }
           animate={
             isAnimating
@@ -83,17 +106,23 @@ const Home = () => {
                     Math.random() * window.innerHeight - window.innerHeight / 2,
                   rotate: Math.random() * 180 - 90,
                 }
-              : finalAlignedPosition(index)
+              : finalAlignedPosition(index, windowWidth)
           }
           transition={{
             duration: isAnimating ? 10 : 3, // 10 seconds for animation, 1 second to align
           }}
-        />
+        >
+          <img
+            src={getImgPath(photo)}
+            alt={`Photo ${index + 1}`}
+            className="w-full h-full object-contain"
+          />
+        </motion.div>
       ))}
 
       {/* Replay Button */}
       <button
-        className="absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-white text-blue-500 font-bold py-2 px-4 rounded shadow-lg z-10"
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white text-blue-500 font-bold py-2 px-4 rounded z-10"
         onClick={handleReplay}
       >
         Replay Animation
