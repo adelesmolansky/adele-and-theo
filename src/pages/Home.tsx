@@ -126,7 +126,7 @@ const Home = () => {
 
       {/* Replay Button */}
       <button
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white text-blue-500 font-bold py-2 px-4 rounded z-10"
+        className="absolute bottom-24 right-4 bg-white text-blue-500 font-bold py-2 px-4 rounded z-10"
         onClick={handleReplay}
       >
         Replay Animation
