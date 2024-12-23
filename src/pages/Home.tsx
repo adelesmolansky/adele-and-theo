@@ -39,6 +39,10 @@ const finalAlignedPosition = (index: number, windowWidth: number) => {
   };
 };
 
+/**
+ * Home Page.
+ * A collection of our best photos together, animated in a fun way.
+ */
 const Home = () => {
   const [isAnimating, setIsAnimating] = useState(true);
   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
@@ -114,7 +118,7 @@ const Home = () => {
         >
           <img
             src={getImgPath(photo)}
-            alt={`Photo ${index + 1}`}
+            alt={`${index + 1}`}
             className="w-full h-full object-contain"
           />
         </motion.div>
