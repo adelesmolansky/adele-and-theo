@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import photos from '../data/bestPhotos.json';
 import { getImgPath } from '../util/util';
 
-const loveString = 'I love you Theo <3';
+const loveString = 'I love you Theo ❤️';
 const tenSeconds = 10000; // 10 seconds = 10000 milliseconds
 
 // Generate random positions for photos on the screen
